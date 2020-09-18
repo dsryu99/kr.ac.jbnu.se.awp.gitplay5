@@ -5,5 +5,7 @@ public class HelloGit {
 		System.out.println("Hello Git!!");
 		System.out.println("Hello hyeonjun!!");
 		System.out.println("Hello heejoo!!");
+		system.out.println("Hello im seongju!!!");
 	}
+	//add commit : this seongju
 }
