@@ -7,7 +7,11 @@ public class HelloGit {
 		System.out.println("Hello heejoo!!");
 		system.out.println("Hello im seongju!!!");
 		system.out.println("conflict test");
+<<<<<<< HEAD
 		system.out.println("heejoo confliction test");
+=======
+		system.out.println("heejoo confliction");
+>>>>>>> refs/remotes/origin/master
 		
 		for (int i=0;i<5;i++)
 			system.out.println(i);
