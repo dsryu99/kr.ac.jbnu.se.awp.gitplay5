@@ -6,7 +6,8 @@ public class HelloGit {
 		System.out.println("Hello hyeonjun!!");
 		System.out.println("Hello heejoo!!");
 		system.out.println("Hello im seongju!!!");
-		system out println("conflict test");
+		system.out.println("conflict test");
+		system.out.println("heejoo commit/push");
 		
 		for (int i=0;i<5;i++)
 			system.out.println(i);
