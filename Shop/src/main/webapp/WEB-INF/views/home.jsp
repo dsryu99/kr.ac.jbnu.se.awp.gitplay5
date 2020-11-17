@@ -309,7 +309,7 @@
 				</div>
 				<!--/owl-slide-->
 				<div class="owl-slide cover" style="background-image: url(resources/img/slides/slide_home_3.png);">
-					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(255, 255, 255, 0.5)">
+					<div class="opacity-mask d-flex align-items-center" data-opacity-mask="rgba(0, 0, 0, 0.5)">
 						<div class="container">
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
@@ -374,25 +374,23 @@
 				<div class="col-6 col-md-4 col-xl-3">
 					<div class="grid_item">
 						<figure>
-							<span class="ribbon off">-30%</span>
+							<!-- <span class="ribbon off">-30%</span> -->
 							<a href="product-detail-1.html">
-								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/shoes/1.jpg" alt="">
-								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/shoes/1_b.jpg" alt="">
+								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/lunchbox_1.png" alt="">
 							</a>
-							<div data-countdown="2019/05/15" class="countdown"></div>
+							<!-- <div data-countdown="2019/05/15" class="countdown"></div> -->
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
 						<a href="product-detail-1.html">
-							<h3>Armor Air x Fear</h3>
+							<h3>현미&소불고기</h3>
 						</a>
 						<div class="price_box">
-							<span class="new_price">$48.00</span>
-							<span class="old_price">$60.00</span>
+							<span class="new_price">6000&#8361;</span>
 						</div>
 						<ul>
-							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
-							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
-							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>즐겨찾기에 추가</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>가격 비교하기</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>장바구니에 넣기</span></a></li>
 						</ul>
 					</div>
 					<!-- /grid_item -->
@@ -400,26 +398,24 @@
 				<!-- /col 1 -->
 				<div class="col-6 col-md-4 col-xl-3">
 					<div class="grid_item">
-						<span class="ribbon off">-30%</span>
+						<!-- <span class="ribbon off">-30%</span> -->
 						<figure>
 							<a href="product-detail-1.html">
-								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/shoes/2.jpg" alt="">
-								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/shoes/2_b.jpg" alt="">
+								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/salad_1.png" alt="">
 							</a>
-							<div data-countdown="2019/05/10" class="countdown"></div>
+							<!-- <div data-countdown="2019/05/10" class="countdown"></div> -->
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
 						<a href="product-detail-1.html">
-							<h3>Armor Okwahn II</h3>
+							<h3>로스트 치킨 샐러드</h3>
 						</a>
 						<div class="price_box">
-							<span class="new_price">$90.00</span>
-							<span class="old_price">$170.00</span>
+							<span class="new_price">5000&#8361;</span>
 						</div>
 						<ul>
-							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
-							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
-							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>즐겨찾기에 추가</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>가격 비교하기</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>장바구니에 넣기</span></a></li>
 						</ul>
 					</div>
 					<!-- /grid_item -->
@@ -427,26 +423,24 @@
 				<!-- /col 2 -->
 				<div class="col-6 col-md-4 col-xl-3">
 					<div class="grid_item">
-						<span class="ribbon off">-50%</span>
+						<!-- <span class="ribbon off">-50%</span> -->
 						<figure>
 							<a href="product-detail-1.html">
-								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/shoes/3.jpg" alt="">
-								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/shoes/3_b.jpg" alt="">
+								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/salad_2.png" alt="">
 							</a>
-							<div data-countdown="2019/05/21" class="countdown"></div>
+							<!-- <div data-countdown="2019/05/21" class="countdown"></div> -->
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
 						<a href="product-detail-1.html">
-							<h3>Armor Air Wildwood ACG</h3>
+							<h3>갈릭 쉬림프 샐러드</h3>
 						</a>
 						<div class="price_box">
-							<span class="new_price">$75.00</span>
-							<span class="old_price">$155.00</span>
+							<span class="new_price">5000&#8361;</span>
 						</div>
 						<ul>
-							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>Add to favorites</span></a></li>
-							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>Add to compare</span></a></li>
-							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>Add to cart</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to favorites"><i class="ti-heart"></i><span>즐겨찾기에 추가</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to compare"><i class="ti-control-shuffle"></i><span>가격 비교하기</span></a></li>
+							<li><a href="#0" class="tooltip-1" data-toggle="tooltip" data-placement="left" title="Add to cart"><i class="ti-shopping-cart"></i><span>장바구니에 넣기</span></a></li>
 						</ul>
 					</div>
 					<!-- /grid_item -->
