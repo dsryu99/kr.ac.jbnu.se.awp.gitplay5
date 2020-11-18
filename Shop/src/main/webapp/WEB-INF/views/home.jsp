@@ -400,13 +400,13 @@
 					<div class="grid_item">
 						<!-- <span class="ribbon off">-30%</span> -->
 						<figure>
-							<a href="product-detail-1.html">
+							<a href="salad_1-detail.html">
 								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/salad_1.png" alt="">
 							</a>
 							<!-- <div data-countdown="2019/05/10" class="countdown"></div> -->
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
-						<a href="product-detail-1.html">
+						<a href="salad_1-detail.html">
 							<h3>로스트 치킨 샐러드</h3>
 						</a>
 						<div class="price_box">
@@ -431,7 +431,7 @@
 							<!-- <div data-countdown="2019/05/21" class="countdown"></div> -->
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
-						<a href="product-detail-1.html">
+						<a href="salad_2-detail.html">
 							<h3>갈릭 쉬림프 샐러드</h3>
 						</a>
 						<div class="price_box">
