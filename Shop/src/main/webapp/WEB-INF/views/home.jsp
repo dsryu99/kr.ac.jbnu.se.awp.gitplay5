@@ -425,7 +425,7 @@
 					<div class="grid_item">
 						<!-- <span class="ribbon off">-50%</span> -->
 						<figure>
-							<a href="product-detail-1.html">
+							<a href="salad_2-detail.html">
 								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/salad_2.png" alt="">
 							</a>
 							<!-- <div data-countdown="2019/05/21" class="countdown"></div> -->
