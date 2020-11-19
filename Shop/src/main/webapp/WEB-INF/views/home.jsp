@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Ansonika">
-    <title>런치 박스</title>
+    <title>런치박스</title>
 
     <!-- Favicons-->
     <link rel="shortcut icon" href="resources/img/favicon.ico" type="image/x-icon">
@@ -314,11 +314,11 @@
 							<div class="row justify-content-center justify-content-md-start">
 								<div class="col-lg-12 static">
 									<div class="slide-text text-center black">
-										<h2 class="owl-slide-animated owl-slide-title">런치박스 세트<br>샐러드와 도시락 함께!</h2>
-										<p class="owl-slide-animated owl-slide-subtitle">
+										<h2 class="owl-slide-animated owl-slide-title">런치박스 세트<br>상품 준비중입니다.(꾸벅)</h2>
+										<!-- <p class="owl-slide-animated owl-slide-subtitle">
 											8000&#8361; ~ 15000&#8361;
-										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">바로가기</a></div>
+										</p> -->
+										<!-- <div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">바로가기</a></div> -->
 									</div>
 								</div>
 							</div>
@@ -375,14 +375,14 @@
 					<div class="grid_item">
 						<figure>
 							<!-- <span class="ribbon off">-30%</span> -->
-							<a href="product-detail-1.html">
+							<a href="lunchbox_1-detail.html">
 								<img class="img-fluid lazy" src="resources/img/products/product_placeholder_square_medium.jpg" data-src="resources/img/products/lunchbox_1.png" alt="">
 							</a>
 							<!-- <div data-countdown="2019/05/15" class="countdown"></div> -->
 						</figure>
 						<div class="rating"><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star voted"></i><i class="icon-star"></i></div>
-						<a href="product-detail-1.html">
-							<h3>현미&소불고기</h3>
+						<a href="lunchbox_1-detail.html">
+							<h3>소불고기 도시락</h3>
 						</a>
 						<div class="price_box">
 							<span class="new_price">6000&#8361;</span>
