@@ -67,8 +67,8 @@
 									<a href="javascript:void(0);" class="show-submenu">런치박스 메뉴</a>
 									<ul>
 										<li><a href="salad-list.html">런치박스 샐러드</a></li>
-										<li><a href="listing-grid-2-full.html">런치박스 도시락</a></li>
-										<li><a href="listing-grid-3.html">런치박스 세트</a></li>
+										<li><a href="lunchbox-list.html">런치박스 도시락</a></li>
+										<li><a href="set-list.html">런치박스 세트</a></li>
 									</ul>
 								</li>
 								<li class="submenu">
@@ -726,8 +726,8 @@
 					<div class="collapse dont-collapse-sm links" id="collapse_2">
 						<ul>
 							<li><a href="salad-list.html">런치박스 샐러드</a></li>
-							<li><a href="listing-grid-2-full.html">런치박스 도시락</a></li>
-							<li><a href="listing-grid-3.html">런치박스 세트</a></li>
+							<li><a href="lunchbox-list.html">런치박스 도시락</a></li>
+							<li><a href="set-list.html">런치박스 세트</a></li>
 						</ul>
 					</div>
 				</div>
