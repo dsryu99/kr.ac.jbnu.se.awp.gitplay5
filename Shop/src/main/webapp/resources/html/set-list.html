@@ -22,7 +22,6 @@
     <!-- BASE CSS -->
     <link href="resources/css/bootstrap.custom.min.css" rel="stylesheet">
     <link href="resources/css/style.css" rel="stylesheet">
-    <link href="resources/css/profile.css" rel="stylesheet">
 
 	<!-- SPECIFIC CSS -->
     <link href="resources/css/about.css" rel="stylesheet">
@@ -86,7 +85,7 @@
 							</ul>
 						</div>
 						<!--/main-menu -->
-					</nav>
+					</nav>					
 				</div>
 				<!-- /row -->
 			</div>
@@ -259,22 +258,10 @@
 	
 	<main class="bg_gray">
 			<div class="container margin_60_35 add_bottom_30">
-			        <div class="profileinfo">
-			            <li>회원정보</li>
-			        </div>
-			        <div class="profilemenu">   
-			            <li>아이디</li>
-			            <li>이름</li>
-			            <li>닉네임</li>
-			            <li>이메일</li>
-			            <li>가입일</li>               
-			        </div>
-			        <div class="profilebutton">
-			            <li><button type="button">회원정보 변경</button></li>
-			            <li><button type="button">비밀번호 변경</button></li>
-			            <li><button type="button">탈퇴</button></li>
-			        </div>
-				
+				<div class="prepare_title">
+					<h2>상품 준비 중 입니다...</h2>
+					<p>빠르게 돌아오겠습니다. (꾸벅)</p>
+				</div>
 				<!-- <div class="row justify-content-center align-items-center">
 					<div class="col-lg-5">
 						<div class="box_about">
@@ -453,7 +440,7 @@
 						<ul>
 							<li><i class="ti-home"></i>영업비밀</li>
 							<li><i class="ti-headphone-alt"></i>010-0000-0000</li>
-							<li><i class="ti-email"></i><button class="email_btn" onclick="copy('info@lunchbox.com')">info@lunchbox.com</button></li>
+							<li><i class="ti-email"></i><button class="email_btn" onclick="copy('info@lunchbox.com');alert('메일이 복사되었습니다.');">info@lunchbox.com</button></li>
 							<script>
 							function copy(val) {
 							  var dummy = document.createElement("textarea");

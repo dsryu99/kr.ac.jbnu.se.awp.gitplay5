@@ -282,7 +282,7 @@
 										<p class="owl-slide-animated owl-slide-subtitle">
 											4000&#8361; ~ 7000&#8361;
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">바로 가기</a></div>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="salad-list.html" role="button">바로 가기</a></div>
 									</div>
 								</div>
 							</div>
@@ -300,7 +300,7 @@
 										<p class="owl-slide-animated owl-slide-subtitle">
 											5000&#8361; ~ 9000&#8361;
 										</p>
-										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="listing-grid-1-full.html" role="button">바로 가기</a></div>
+										<div class="owl-slide-animated owl-slide-cta"><a class="btn_1" href="lunchbox-list.html" role="button">바로 가기</a></div>
 									</div>
 								</div>
 							</div>
