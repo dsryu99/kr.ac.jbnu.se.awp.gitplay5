@@ -74,7 +74,7 @@
 								<li class="submenu">
 									<a href="javascript:void(0);" class="show-submenu">게시판</a>
 									<ul>
-										<li><a href="listing-grid-1-full.html">런치박스 후기</a></li>
+										<li><a href="board/boardList">런치박스 후기</a></li>
 										<li><a href="listing-grid-2-full.html">QnA</a></li>
 										<li><a href="listing-grid-3.html">이벤트</a></li>
 									</ul>
@@ -717,7 +717,7 @@
 							<li><a href="seeyousoon.html">고객센터</a></li>
 							<li><a href="seeyousoon.html">질문 게시판</a></li>
 							<li><a href="profile.html">마이페이지</a></li>
-							<li><a href="seeyousoon.html">커뮤니티</a></li>
+							<li><a href="board.html">런치박스 후기</a></li>
 						</ul>
 					</div>
 				</div>
