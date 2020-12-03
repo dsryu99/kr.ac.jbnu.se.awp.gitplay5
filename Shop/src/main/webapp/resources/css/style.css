@@ -2644,7 +2644,7 @@ header.version_2 .search_mob_wp .btn_1:hover {
   font-size: 0.8125rem;
   font-weight: 700;
   line-height: 1;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 header.version_1 .main-menu > ul > li > a {
@@ -5054,6 +5054,17 @@ input.qty2 {
   border: none;
   margin-left: -20px;
 }
+input.qty3 {
+  /* position: relative; */
+  width: 40px;
+  height: 40px;
+  /* text-align: center; */
+  left: 50%;
+  background: none;
+  padding: 5px;
+  border: none;
+  /* margin-left: -20px; */
+}
 input.qty2:focus {
   outline: none;
   box-shadow: none;
@@ -5267,10 +5278,10 @@ input.qty2:focus {
   transition: all 0.3s ease-in-out;
 }
 
-.small-gutters {
+/* .small-gutters {
   margin-right: -5px !important;
   margin-left: -5px !important;
-}
+} */
 .small-gutters > [class*="col-"] {
   padding-right: 5px !important;
   padding-left: 5px !important;

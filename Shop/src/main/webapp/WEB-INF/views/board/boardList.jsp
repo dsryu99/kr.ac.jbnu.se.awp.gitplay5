@@ -1,4 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -84,7 +86,7 @@
 	                var boardwno        = list[a].wno; 
 	                var boardtitle		= list[a].title; 
 	                var boardcontent	= list[a].content; 
-	                var boardwriter		= list[a].writer; 
+	                var boardwriter		= list[a].mem_id; 
 	                var boardwdate		= formatDate(new Date(list[a].wdate-540 * 60 * 1000));
 	                var boardhit		= list[a].hit; 
 	                
@@ -119,9 +121,7 @@
 </head>
 
 <body>
-	
 	<div id="page">
-	
 	<header class="version_1">
 		<div class="layer"></div><!-- Mobile menu overlay mask -->
 		<div class="main_header">
@@ -146,28 +146,33 @@
 								<li class="submenu">
 									<a href="javascript:void(0);" class="show-submenu">런치박스 메뉴</a>
 									<ul>
-										<li><a href="salad-list.html">런치박스 샐러드</a></li>
-										<li><a href="lunchbox-list.html">런치박스 도시락</a></li>
-										<li><a href="set-list.html">런치박스 세트</a></li>
+										<li><a href="/salad/salad-list">런치박스 샐러드</a></li>
+										<li><a href="/lunchbox/lunchbox-list">런치박스 도시락</a></li>
 									</ul>
 								</li>
 								<li class="submenu">
 									<a href="javascript:void(0);" class="show-submenu">게시판</a>
 									<ul>
-										<li><a href="boardList">런치박스 후기</a></li>
-										<li><a href="listing-grid-2-full.html">QnA</a></li>
-										<li><a href="listing-grid-3.html">이벤트</a></li>
+										<li><a href="/board/boardList">커뮤니티</a></li>
+										<li><a href="/QNA.html">QnA</a></li>
+										<li><a href="/Event.html">이벤트</a></li>
 									</ul>
 									<!-- /menu-wrapper -->
 								</li>								
 								<li>
-									<a href="blog.html">회사 소개</a>
+									<a href="/introduction">회사 소개</a>
 								</li>																
 							</ul>
 							<ul class="toplogin">
-								<li><a href="login.html">로그인</a></li>
-								<li><a href="register.html">회원가입</a></li>
-								<li><a href="cart.html">장바구니</a></li>
+								<c:if test="${member == null}">
+									<li><a href="/member/login">로그인</a></li>
+									<li><a href="/member/register">회원가입</a></li>
+								</c:if>
+								<c:if test="${member != null}">
+									<li><a>${member.mem_id}님</a></li>
+									<li><a href="/member/logout">로그아웃</a></li>
+								</c:if>
+								<li><a href="/cart/cartList">장바구니</a></li>
 							</ul>
 						</div>
 						<!--/main-menu -->
@@ -239,10 +244,10 @@
 					<h3 data-target="#collapse_1">빠른 링크</h3>
 					<div class="collapse dont-collapse-sm links" id="collapse_1">
 						<ul>
-							<li><a href="seeyousoon.html">고객센터</a></li>
-							<li><a href="seeyousoon.html">질문 게시판</a></li>
-							<li><a href="profile.html">마이페이지</a></li>
-							<li><a href="boardList">런치박스 후기</a></li>
+							<li><a href="/seeyousoon">고객센터</a></li>
+							<li><a href="/seeyousoon">질문 게시판</a></li>
+							<li><a href="/profile.html">마이페이지</a></li>
+							<li><a href="/board/boardList">커뮤니티</a></li>
 						</ul>
 					</div>
 				</div>
@@ -250,9 +255,8 @@
 					<h3 data-target="#collapse_2">런치박스 메뉴</h3>
 					<div class="collapse dont-collapse-sm links" id="collapse_2">
 						<ul>
-							<li><a href="salad-list.html">런치박스 샐러드</a></li>
-							<li><a href="lunchbox-list.html">런치박스 도시락</a></li>
-							<li><a href="set-list.html">런치박스 세트</a></li>
+							<li><a href="/salad/salad-list">런치박스 샐러드</a></li>
+							<li><a href="/lunchbox/lunchbox-list">런치박스 도시락</a></li>
 						</ul>
 					</div>
 				</div>
@@ -282,9 +286,11 @@
 			<hr>
 			<div class="row add_bottom_25">
 				<div class="col-lg-6">
+				</div>
+				<div class="col-lg-6">
 					<ul class="additional_links">
-						<li><a href="seeyousoon.html">이용약관</a></li>
-						<li><a href="seeyousoon.html">개인정보처리방침</a></li>
+						<li><a href="/seeyousoon">이용약관</a></li>
+						<li><a href="/seeyousoon">개인정보처리방침</a></li>
 						<li><span>© 2020 런치박스</span></li>
 					</ul>
 				</div>

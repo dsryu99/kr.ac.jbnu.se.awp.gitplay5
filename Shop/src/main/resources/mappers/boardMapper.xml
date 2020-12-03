@@ -1,44 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="web.shop.proj.boardMapper">
-
+	<!-- 게시판 목록 -->
 	<select id="getBoardList" parameterType="web.shop.proj.form.BoardForm" resultType="web.shop.proj.dto.BoardDto">
-		SELECT wno, title, content, writer, wdate, hit 
-		FROM shopdb.board
-		
+		SELECT wno, title, content, mem_id, wdate, hit 
+		FROM board		
 	</select>
-
+	<!-- 게시판 수정 -->
 	<delete id="updateBoardHits" parameterType="web.shop.proj.form.BoardForm">    
         UPDATE shopdb.board 
            SET hit = hit + 1
-         WHERE wno = #{wno}
-    
+         WHERE wno = #{wno}    
     </delete>
 
 	<select id="getBoardDetail" parameterType="web.shop.proj.form.BoardForm" resultType="web.shop.proj.dto.BoardDto">
-    	SELECT wno, title, content, writer, hit, cast( DATE_FORMAT( wdate, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS wdate
+    	SELECT wno, title, content, mem_id, hit, cast( DATE_FORMAT( wdate, '%Y-%m-%d %H:%i:%s' ) AS CHAR(19) ) AS wdate
         FROM shopdb.board 
-        WHERE wno = #{wno}
-    
+        WHERE wno = #{wno}    
     </select>
 
 	<insert id="insertBoard" parameterType="web.shop.proj.form.BoardForm">    
-        INSERT INTO shopdb.board(wno, title, content, writer, wdate, hit) 
-        VALUES(0, #{title}, #{writer}, #{content}, sysdate(), 0)
-    
+        INSERT INTO shopdb.board(wno, title, content, mem_id, wdate, hit) 
+        VALUES(0, #{title}, #{content}, #{mem_id}, sysdate(), 0)    
     </insert>
     
-    <delete id="deleteBoard" parameterType="web.shop.proj.form.BoardForm">    
+    <select id="deleteBoard" parameterType="web.shop.proj.form.BoardForm" resultType= "int">    
         DELETE 
         FROM shopdb.board
-        WHERE wno = #{wno}
+        WHERE wno = #{wno} and mem_id=#{mem_id}
+    </select>
     
-    </delete>
-    
-    <delete id="updateBoard" parameterType="web.shop.proj.form.BoardForm">    
+    <select id="updateBoard" parameterType="web.shop.proj.form.BoardForm" resultType= "int">    
 		UPDATE shopdb.board
-		SET title = #{title}, content = #{content}, wdate = dateNow
+		SET title = #{title}, content = #{content}, wdate = sysdate()
 		WHERE wno = #{wno}
-    
-    </delete>
+    </select>
 </mapper>

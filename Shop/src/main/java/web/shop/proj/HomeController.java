@@ -4,6 +4,9 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -35,4 +38,16 @@ public class HomeController {
 		return "home";
 	}
 	
+	/** 회사소개 이동 */
+    @RequestMapping( value = "/introduction")
+    public String goIntroduction(HttpServletRequest request, HttpServletResponse response) throws Exception{
+        
+        return "/introduction";
+    }
+    /** 준비중인 페이지 이동 */
+    @RequestMapping( value = "/seeyousoon")
+    public String goError404(HttpServletRequest request, HttpServletResponse response) throws Exception{
+        
+        return "/seeyousoon";
+    }
 }

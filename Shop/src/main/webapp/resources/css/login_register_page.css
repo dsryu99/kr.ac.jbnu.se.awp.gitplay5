@@ -12,19 +12,45 @@
 .one{
     margin:10px;
 }
-.email a{
+.form-box{
+    text-align:center;
+}
+.form-box .member_id{
+    margin-right:100px;
+}
+.form-box .member_pw{
+    margin-right:80px;
+}
+.form-box .member_name{
+    margin-right:120px;
+}
+.form-box .member_email{
+    margin-right:100px;
+}
+
+.form-box .member_phonenum{
+    margin-right:60px;
+}
+
+
+
+
+.member_id label{
     font-size:20px;
 }
-.password a{
+.member_pw label{
     font-size:20px;
 }
-.password_check a{
+.password_check label{
     font-size:20px;
 }
-.user_name{
+.member_email label{
     font-size:20px;
 }
-.user_phone_number{
+.member_name label{
+    font-size:20px;
+}
+.member_phonenum label{
     font-size:20px;
 }
 .contain{

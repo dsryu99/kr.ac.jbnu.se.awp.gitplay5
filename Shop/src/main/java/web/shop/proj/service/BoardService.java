@@ -2,9 +2,12 @@ package web.shop.proj.service;
 
 import java.util.List;
 
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
- 
+
 import web.shop.proj.dao.BoardDao;
 import web.shop.proj.dto.BoardDto;
 import web.shop.proj.form.BoardForm;
@@ -14,7 +17,7 @@ public class BoardService {
  
     @Autowired
     private BoardDao boardDao;
- 
+    protected final Logger logger = LoggerFactory.getLogger(this.getClass());
     /** 게시판 - 목록 조회 */
     public List<BoardDto> getBoardList(BoardForm boardForm) throws Exception {
  
@@ -66,7 +69,7 @@ public class BoardService {
         BoardDto boardDto = new BoardDto();
  
         int deleteCnt = boardDao.deleteBoard(boardForm);
- 
+        
         if (deleteCnt > 0) {
             boardDto.setResult("SUCCESS");
         } else {
@@ -80,7 +83,7 @@ public class BoardService {
     public BoardDto updateBoard(BoardForm boardForm) throws Exception {
  
         BoardDto boardDto = new BoardDto();
- 
+        logger.info(boardForm.getMem_id());
         int updateCnt = boardDao.updateBoard(boardForm);
  
         if (updateCnt > 0) {

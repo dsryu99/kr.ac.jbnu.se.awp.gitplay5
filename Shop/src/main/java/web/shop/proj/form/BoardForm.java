@@ -7,7 +7,7 @@ public class BoardForm {
     int wno;
     String title;
     String content;
-    String writer;
+    String mem_id;
     Date wdate;
     int hit;
     
@@ -36,12 +36,12 @@ public class BoardForm {
 	}
 	public void setContent(String content) {
 		this.content = content;
+	}	
+	public String getMem_id() {
+		return mem_id;
 	}
-	public String getWriter() {
-		return writer;
-	}
-	public void setWriter(String writer) {
-		this.writer = writer;
+	public void setMem_id(String mem_id) {
+		this.mem_id = mem_id;
 	}
 	public Date getWdate() {
 		return wdate;
